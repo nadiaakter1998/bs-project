@@ -1,0 +1,38 @@
+body{
+    background-color: skyblue;
+}
+.profile-area{
+    padding: 80px 0;
+}
+
+.card{
+    box-shadow: 0 0 30px rgba(0,0,0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img-1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img-2 img{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    margin-top: -80px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.main-text{
+    text-align: center;
+    margin: 5px;
+}
+.social-media{
+    justify-content: center;
+    margin-bottom: 5px;
+}
